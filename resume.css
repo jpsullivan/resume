@@ -276,11 +276,33 @@ a#pdf:hover { background: #222; }
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
-.talent { width: 32%; float: left; margin-left:0; }
-.talent h2 {
+.bigtalent { width: 32%; float: left; margin-left:0; }
+.bigtalent h2 {
     margin-bottom: 6px;
     font-family: 'Droid Sans', serif;
     font-size:18px;
+}
+
+.talent {
+    float:left;
+    display:inline-block;
+    margin-right:55px;
+    margin-bottom:15px;
+    min-height:145px;
+}
+.talent h4 {
+    float:left;
+    width:100px;
+    font-style:italic;
+    color:#999;
+}
+.talent ul {
+    float:left;
+    border-left:1px solid #ccc;
+}
+.talent ul li {
+    border:none;
+    margin-left:5px;
 }
 
 #srt-ttab { margin-bottom: 100px; text-align: center;  }
