@@ -288,9 +288,9 @@ a#pdf:hover { background: #222; }
 .talent {
     float:left;
     display:inline-block;
-    margin-right:55px;
+    margin-right: 45px;
     margin-bottom:15px;
-    min-height:145px;
+    min-height: 150px;
 }
 .talent h4 {
     float:left;
