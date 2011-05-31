@@ -226,7 +226,9 @@ p.enlarge span { color: #000 }
 .contact-info { margin-top: 7px; text-align:right; }
 .contact-info h3 {
     font-family: 'Droid Sans', serif;
-
+}
+.contact-info .twitter_follow_button {
+    float: right;width: 125px; margin-top: 5px;
 }
 .first h2 {
 font-family: 'PT Sans Narrow', serif;
